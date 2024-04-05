@@ -1,6 +1,3 @@
-# Prepare the updated README text for download as a markdown file
-
-readme_content = """
 # UCBS Mountain Retreat NFT Workshop - ERC721 Drop Claim Page 🗻
 
 This documentation outlines the process for creating an ERC721 Drop claim page, tailored specifically for the UCBS Mountain Retreat NFT Workshop. By customizing the provided template with your unique branding and integrating your NFT Drop contract address, you can efficiently launch your NFT collection.
