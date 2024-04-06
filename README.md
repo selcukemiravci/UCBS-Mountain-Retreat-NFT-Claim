@@ -16,7 +16,7 @@ Following the creation of your NFT drop, adjust the **Claim Conditions** in your
 
 ### 2. Implement Gasless Transactions
 
-Utilize [Biconomy](https://dashboard.biconomy.io/paymasters/57d68aac-4eb3-4f4d-829f-fbe52bdce8a0/gas-tank) to establish gasless, sponsored transactions for your users. Connect your wallet, deposit your testnet funds, and retrieve the necessary URL and ID from the Biconomy Dashboard.
+Utilize [Biconomy](https://dashboard.biconomy.io/)) to establish gasless, sponsored transactions for your users. Connect your wallet, deposit your testnet funds, and retrieve the necessary URL and ID from the Biconomy Dashboard.
 
 ### 3. Application Embedding
 
