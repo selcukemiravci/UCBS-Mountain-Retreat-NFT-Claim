@@ -2,10 +2,6 @@
 
 This documentation outlines the process for creating an ERC721 Drop claim page, tailored specifically for the UCBS Mountain Retreat NFT Workshop. By customizing the provided template with your unique branding and integrating your NFT Drop contract address, you can efficiently launch your NFT collection.
 
-The provided code serves as an embeddable solution for the NFT Drop contract. Should you prefer to personalize the template, the following instructions guide you through cloning the template project to cater to your specific requirements.
-```bash
-npx thirdweb create --template erc721
-```
 ## Step-by-Step Guide
 
 ## Short Guide & Overview of the Workshop
@@ -60,6 +56,10 @@ npm start
 - Embed the code from thirdweb into your `index.js` file.
 - Proceed to deploy your application.
 
+The provided code serves as an embeddable solution for the NFT Drop contract. Should you prefer to personalize the template, the following instructions guide you through cloning the template project to cater to your specific requirements.
+```bash
+npx thirdweb create --template erc721
+```
 ## Available Scripts
 
 In the project directory, the following commands can be run:
