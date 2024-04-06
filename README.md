@@ -2,9 +2,9 @@
 
 This documentation outlines the process for creating an ERC721 Drop claim page, tailored specifically for the UCBS Mountain Retreat NFT Workshop. By customizing the provided template with your unique branding and integrating your NFT Drop contract address, you can efficiently launch your NFT collection.
 
-## Step-by-Step Guide
+## Step-by-Step Guide 🧵
 
-## Short Guide & Overview of the Workshop
+## Short Guide & Overview of the Workshop 🎯
 
 Before starting this tutorial, ensure you have a crypto wallet installed in your browser. We recommend the following:
 
@@ -25,17 +25,17 @@ Once your wallet is connected, visit the [Polygon Faucet](https://faucet.polygon
 - Enter your wallet address from the landing page, then click submit.
 
 After submission, you will receive a donation of 0.2 MATIC, airdropped to your testnet account. Return to the landing page once your wallet reflects the update, and you'll be able to mint your NFT!
-### 1. Deploy an NFT Drop on Thirdweb
+### 1. Deploy an NFT Drop on Thirdweb 🚀
 
 Prior to deployment, ensure your NFT Drop contract is ready. Navigate to the Thirdweb dashboard to create your [NFT Drop Contract](https://thirdweb.com/thirdweb.eth/DropERC721). It is crucial to define a **name**, **description**, and **image** for your NFT drop, along with selecting an appropriate blockchain network. This example utilizes the **Polygon testnet Amoy**. Acquire testnet funds by visiting the [Polygon testnet faucet](https://faucet.polygon.technology/), then proceed to create your NFT Drop.
 
 Following the creation of your NFT drop, adjust the **Claim Conditions** in your contract to specify the release conditions for the NFTs.
 
-### 2. Implement Gasless Transactions
+### 2. Implement Gasless Transactions ⚡️
 
 Utilize [Biconomy](https://dashboard.biconomy.io/)) to establish gasless, sponsored transactions for your users. Connect your wallet, deposit your testnet funds, and retrieve the necessary URL and ID from the Biconomy Dashboard.
 
-### 3. Application Embedding
+### 3. Application Embedding 🤝
 
 Return to your thirdweb Dashboard:
 1. Navigate to the Embed section.
@@ -43,7 +43,7 @@ Return to your thirdweb Dashboard:
 3. Insert your Biconomy URL and ID.
 4. Copy the provided `<iframe>` embed code.
 
-### 4. Application Launch
+### 4. Application Launch 💨
 
 Initiate a React application and deploy your application following these steps:
 
