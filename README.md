@@ -8,9 +8,30 @@ npx thirdweb create --template erc721
 ```
 ## Step-by-Step Guide
 
+## Short Guide & Overview of the Workshop
+
+Before starting this tutorial, ensure you have a crypto wallet installed in your browser. We recommend the following:
+
+- [Metamask](https://metamask.io/) or [Phantom Wallet](https://phantom.app/)
+
+Next, please join Polygon's Official Discord and complete the onboarding process:
+
+- [Polygon's Discord](https://discord.gg/0xpolygon)
+
+After joining, proceed to the landing page and connect your wallet:
+
+- [UCBS Mountain Retreat NFT Claim Page](https://ucbs-mountain-retreat-nft-claim-one.vercel.app/)
+
+Once your wallet is connected, visit the [Polygon Faucet](https://faucet.polygon.technology/):
+
+- Log in using Discord and verify your membership in the Polygon Discord channel.
+- Select "Polygon PoS (Amoy)" as your network.
+- Enter your wallet address from the landing page, then click submit.
+
+After submission, you will receive a donation of 0.2 MATIC, airdropped to your testnet account. Return to the landing page once your wallet reflects the update, and you'll be able to mint your NFT!
 ### 1. Deploy an NFT Drop on Thirdweb
 
-Prior to deployment, ensure your NFT Drop contract is ready. Navigate to the Thirdweb dashboard to create your [NFT Drop Contract](https://thirdweb.com/thirdweb.eth/DropERC721). It is crucial to define a **name**, **description**, and **image** for your NFT drop, along with selecting an appropriate blockchain network. This example utilizes the **Polygon testnet Mumbai**. Acquire testnet funds by visiting the [Polygon testnet faucet](https://faucet.polygon.technology/), then proceed to create your NFT Drop.
+Prior to deployment, ensure your NFT Drop contract is ready. Navigate to the Thirdweb dashboard to create your [NFT Drop Contract](https://thirdweb.com/thirdweb.eth/DropERC721). It is crucial to define a **name**, **description**, and **image** for your NFT drop, along with selecting an appropriate blockchain network. This example utilizes the **Polygon testnet Amoy**. Acquire testnet funds by visiting the [Polygon testnet faucet](https://faucet.polygon.technology/), then proceed to create your NFT Drop.
 
 Following the creation of your NFT drop, adjust the **Claim Conditions** in your contract to specify the release conditions for the NFTs.
 
